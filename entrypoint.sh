@@ -17,7 +17,7 @@ make-cosmosis-feedstock-pr () {
     git config pull.ff only
     git config --global user.email "joezuntz@googlemail.com"
     git config --global user.name "Bot for Joe Zuntz"
-    git pull forge master
+    git pull forge main
 
     # create new branch
     git checkout -b $version
